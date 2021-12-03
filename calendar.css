@@ -1,0 +1,67 @@
+.row {
+  display: flex;
+}
+
+.calendar {
+	background-image: url('https://img5.goodfon.com/wallpaper/nbig/b/32/zima-sneg-sugroby-derevia-eli-zakat.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 800px;
+	margin: 40px auto 0 auto;
+	box-shadow: 4px 5px 11px #000000;
+	border-radius: 5px;
+}
+
+.box {
+	height: 80px;
+	width: 80px;
+	border: 2px solid rgb(255, 255, 255);
+	color: white ;
+	margin: 57px auto 0 auto;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.box:hover {
+	color: rgb(193, 193, 193);
+	border-color: rgb(29, 104, 14);
+	cursor: pointer;
+}
+
+.task {
+	background-size: 710px 500px;
+	border-radius: 5px;
+	height: 500px;
+	width: 710px;
+	margin-top: 57px;
+	margin-left: 45px;
+	background-color: rgb(255, 255, 255);
+  	border: 5px solid black;
+	position: absolute;
+	animation: show 1s;
+	text-align: center;
+	padding: 40px 50px 50px 50px;
+	color: #000000;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+a {
+	color: rgb(0, 155, 75);
+}
+
+a:hover {
+	color: rgb(0, 213, 103);
+}
